@@ -5,23 +5,25 @@
     <childcomponent2 />
     <Childcomponent3 />
     <Childcomponent4 />
+    <databinding />
   </div>
 </template>
 
 <script>
-import Childcomponent1 from './Childcomponent1.vue';
-import Childcomponent2 from './Childcomponent2.vue';
-import Childcomponent3 from './Childcomponent3.vue';
-import Childcomponent4 from './Childcomponent4.vue';
+import Childcomponent1 from "./Childcomponent1.vue";
+import Childcomponent2 from "./Childcomponent2.vue";
+import Childcomponent3 from "./Childcomponent3.vue";
+import Childcomponent4 from "./Childcomponent4.vue";
+import Databinding from "./Databinding.vue";
 export default {
   name: "Home",
-  components:{
- Childcomponent1,
+  components: {
+    Childcomponent1,
     Childcomponent2,
     Childcomponent3,
-    Childcomponent4
-    
-  }
+    Childcomponent4,
+    Databinding,
+  },
 };
 </script>
 
@@ -30,5 +32,7 @@ export default {
   background-color: rgb(231, 119, 119);
   font-family: fantasy;
   color: rgb(105, 48, 8);
+  margin: 0%;
+  padding: 0%;
 }
 </style>
